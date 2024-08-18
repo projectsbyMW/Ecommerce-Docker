@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Commerce Application</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">MyStore</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="user-options">
+                <a href="#">Login</a>
+                <a href="#" onclick="fetchCart()">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to MyStore</h1>
+            <p>Your one-stop shop for the best products!</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Products will be dynamically inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Product Details Section (optional for displaying details on the same page) -->
+    <section class="product-details">
+        <!-- Product details will be dynamically inserted here by JavaScript -->
+    </section>
+
+    <!-- Cart Display Section -->
+    <section class="cart-items">
+        <h2>Your Cart</h2>
+        <!-- Cart items will be dynamically inserted here by JavaScript -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 MyStore. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
