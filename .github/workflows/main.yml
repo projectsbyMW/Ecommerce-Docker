@@ -1,4 +1,4 @@
-name: Docker Build and Push, Kubernetes Deploy CI-CD
+name: Docker Compose Deploy CI-CD
 
 on:
   push:
